@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tailwind CSS</title>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-dark">
+      <div class="container flex justify-center mx-auto">
+        <div class="relative flex items-center justify-between">
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+              <span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+              <span class="transition duration-300 ease-in-out hamburger-line"></span>
+              <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="flex mx-8 text-base text-white group-hover:text-smooth">HOME</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="flex mx-8 text-base text-white group-hover:text-smooth">ABOUT ME</a>
+                </li>
+                <li class="group">
+                  <a href="#education" class="flex mx-8 text-base text-white group-hover:text-smooth">EDUCATION</a>
+                </li>
+                <li class="group">
+                  <a href="#skill" class="flex mx-8 text-base text-white group-hover:text-smooth">SKILL</a>
+                </li>
+                <li class="group">
+                  <a href="#certificate" class="flex mx-8 text-base text-white group-hover:text-smooth">CERTIFICATE</a>
+                </li>
+                <li class="group">
+                  <a href="#portfolio" class="flex mx-8 text-base text-white group-hover:text-smooth">PORTFOLIO</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="flex mx-8 text-base text-white group-hover:text-smooth">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="self-center w-full pl-20 lg:w-1/2">
+            <h1 class="mb-10 text-4xl font-bold text-dark lg:text-5xl md:text-xl">Purbaya Ardiansyah</h1>
+            <a href="#" class="px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-smooth hover:opacity-80 hover:shadow-lg">Download CV</a>
+          </div>
+          <div class="self-end w-full px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:right-0 lg:mt-9">
+              <img src="dist/img/profil.png" alt="Sandhika Galih" class="relative z-10 w-[500px] mx-auto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="max-h-full pb-32 bg-slate-100 pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="flex items-center w-full px-4 lg:w-1/2">
+            <h2 class="max-w-md mb-5 text-3xl font-bold text-dark lg:text-4xl">ABOUT ME</h2>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
+                Ketertarikan saya pada pengembangan web dimulai ketika saya berada di SMK kelas sebelas.
+            </p>
+            <div class="flex items-center">
+              <!-- Youtube -->
+              <a
+                href="https://github.com/Purbayard"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+                <img src="dist/img/github.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+
+              <!-- Instagram -->
+              <a
+                href="https://www.linkedin.com/in/purbaya-ardiansyah"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+              <img src="dist/img/linkedin.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+
+              <!-- Twitter -->
+              <a
+                href="https://www.instagram.com/purbayard_/"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+              <img src="dist/img/ig.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- EDUCATION Section Start -->
+    <section id="education" class="pb-16 pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">EDUCATION</h2>
+          </div>
+        </div>
+        <div class="grid w-full grid-cols-9 px-2 mx-auto max-w-7xl">
+          <!-- Stack 1 -->
+          <div class="w-full h-full col-span-4 ">
+              <div class="w-full h-full p-2 rounded-md bg-smooth md:pl-4">
+                  <h1 class="py-2 text-xl font-medium text-white">Universitas Logistik dan Bisnis Internasional</h1>
+                  <p class="text-xs text-gray-100 sm:text-sm">Jurusan Manajemen Informatika</p>
+              </div>
+          </div>
+          <div class="relative flex items-center justify-center w-full h-full col-span-1">
+              <div class="w-1 h-full bg-smooth"></div>
+              <div class="absolute z-10 w-6 h-6 text-center text-white rounded-full bg-smooth">1</div>
+          </div>
+          <div class="flex items-center w-full h-full col-span-4">2021 - now</div>
+  
+  
+          <!-- Stack 2 -->
+          <div class="flex items-center justify-end w-full h-full col-span-4">
+            2019 - 2021
+          </div>
+          <div class="relative flex items-center justify-center w-full h-full col-span-1">
+              <div class="w-1 h-full bg-smooth"></div>
+              <div class="absolute z-10 w-6 h-6 text-center text-white rounded-full bg-smooth">2</div>
+          </div>
+          <div class="w-full h-full col-span-4 ">
+              <div class="w-full h-full p-2 rounded-md bg-smooth md:pl-4">
+                  <h1 class="py-2 text-xl font-medium text-white">SMK INFORMATIKA SUMEDANG</h1>
+                  <p class="text-xs text-gray-100 sm:text-sm">Jurusan Rekayasa Perangkat Lunak</p>
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!-- education Section End -->
+
+    <!-- SKILL Section Start -->
+    <section id="skill" class="pb-32 bg-slate-100 pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Skill</h2>
+          </div>
+        </div>
+        
+        <div class="flex items-center justify-center mb-8 circle-line">
+          <img src="dist/img/skills/html.svg" alt="HTML" class="w-16 h-16 p-1 mx-4 text-sm rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/css.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/js.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/php.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/laravel.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/tailwind.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/bootstrap.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/mysql.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+        </div>
+      </div>
+    </section>
+    <!-- skill Section End -->
+
+    <!-- certificate Section Start -->
+    <section id="certificate" class="pb-32 pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Certificate</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="relative mb-10 overflow-hidden bg-white shadow-lg rounded-xl group">
+              <img src="dist/img/certificate/1.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/2.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/3.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/4.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/5.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/6.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/7.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/pilmapres.jpg" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="mb-10 overflow-hidden bg-white shadow-lg rounded-xl">
+              <img src="dist/img/certificate/8.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- certificate Section End -->
+
+    <!-- POrtfolio Section Start -->
+    <section id="portfolio" class="pb-32 bg-slate-100 pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">PORTFOLIO</h2>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="relative mb-10 overflow-hidden bg-white shadow-lg rounded-xl group">
+              <img src="dist/img/portfolio/option.png" alt="Programming" class="w-full transition-transform transform hover:scale-110" />
+          
+              <!-- Penjelasan yang muncul pada hover -->
+              <div class="absolute bottom-0 left-0 w-full p-4 text-white transition-all duration-300 transform translate-y-full bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 group-hover:translate-y-0">
+                <p class="text-lg font-bold">OPTION</p>
+                <p class="text-sm">Perancangan aplikasi sistem informasi geografis berbasis web</p>
+                <p class="text-sm">Dibangun menggunakan laravel 9, tailwind, dan leaflet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pb-32 pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto mb-16 text-center">
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Contact</h2>
+          </div>
+        </div>
+
+        <form>
+          <div class="w-full lg:mx-auto lg:w-2/3">
+            <div class="w-full px-4 mb-8">
+              <label for="name" class="text-base font-bold text-smooth">Nama</label>
+              <input type="text" id="name" class="w-full p-3 rounded-md bg-slate-200 text-dark focus:border-smooth focus:outline-none focus:ring-1 focus:ring-smooth" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base font-bold text-smooth">Email</label>
+              <input type="email" id="email" class="w-full p-3 rounded-md bg-slate-200 text-dark focus:border-smooth focus:outline-none focus:ring-1 focus:ring-smooth" />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="message" class="text-base font-bold text-smooth">Pesan</label>
+              <textarea type="email" id="email" class="w-full h-32 p-3 rounded-md bg-slate-200 text-dark focus:border-smooth focus:outline-none focus:ring-1 focus:ring-smooth"></textarea>
+            </div>
+            <div class="w-full px-4">
+              <button class="w-full px-8 py-3 text-base font-semibold text-white transition duration-500 rounded-full bg-smooth hover:opacity-80 hover:shadow-lg">Kirim</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="pt-24 pb-12 bg-dark">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+            <h2 class="mb-5 text-4xl font-bold text-white">PURBAYA</h2>
+            <p>purbayaardiansyah63@gmail.com</p>
+            <p>Jl. sariasih II, cijerokasi No. 14</p>
+            <p>Bandung</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="mb-5 text-xl font-semibold text-white">Connect with me</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#" class="inline-block mb-3 text-base hover:text-smooth">Github</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block mb-3 text-base hover:text-smooth">LinkedIn</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block mb-3 text-base hover:text-smooth">Instagram</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="mb-5 text-xl font-semibold text-white">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a href="#home" class="inline-block mb-3 text-base hover:text-smooth">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="inline-block mb-3 text-base hover:text-smooth">About Me</a>
+              </li>
+              <li>
+                <a href="#education" class="inline-block mb-3 text-base hover:text-smooth">Education</a>
+              </li>
+              <li>
+                <a href="#skill" class="inline-block mb-3 text-base hover:text-smooth">Skill</a>
+              </li>
+              <li>
+                <a href="#certificate" class="inline-block mb-3 text-base hover:text-smooth">Certificate</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="inline-block mb-3 text-base hover:text-smooth">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="inline-block mb-3 text-base hover:text-smooth">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex flex-wrap">
+            <p class="text-base font-bold text-center lg:w-1/2 text-slate-500">
+              2023 <span class="text-white">&copy; </span>Purbaya
+            </p>
+            <div class="flex items-center justify-center mb-5 lg:w-1/2">
+              <!-- Instagram -->
+              <a
+                href="https://github.com/Purbayard"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+              <img src="dist/img/github.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+              <!-- LinkedIn -->
+              <a
+                href="https://www.linkedin.com/in/purbaya-ardiansyah"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+              <img src="dist/img/linkedin.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+              <!-- Github -->
+              <a
+                href="https://www.instagram.com/purbayard_/"
+                target="_blank"
+                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+              >
+              <img src="dist/img/ig.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to top Start -->
+    <a href="#home" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-smooth p-4 hover:animate-pulse" id="to-top">
+      <span class="block w-5 h-5 mt-2 rotate-45 border-t-2 border-l-2"></span>
+    </a>
+    <!-- Back to top End -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
