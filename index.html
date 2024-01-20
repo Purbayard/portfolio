@@ -10,42 +10,41 @@
   <body>
     <!-- Header Start -->
     <header class="absolute top-0 left-0 z-10 flex items-center w-full bg-dark">
-      <div class="container flex justify-center mx-auto">
+      <div class="container">
         <div class="relative flex items-center justify-between">
-          <div class="flex items-center px-4">
+          <div class="flex items-center justify-center px-4 py-8 mx-auto">
             <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
               <span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
               <span class="transition duration-300 ease-in-out hamburger-line"></span>
               <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
             </button>
-
             <nav
               id="nav-menu"
-              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none"
+              class="absolute right-4 mt-1 top-full hidden w-full max-w-[250px] rounded-lg  py-5 shadow-lg bg-dark shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:bg-transparent"
             >
-              <ul class="block lg:flex">
-                <li class="group">
-                  <a href="#home" class="flex mx-8 text-base text-white group-hover:text-smooth">HOME</a>
-                </li>
-                <li class="group">
-                  <a href="#about" class="flex mx-8 text-base text-white group-hover:text-smooth">ABOUT ME</a>
-                </li>
-                <li class="group">
-                  <a href="#education" class="flex mx-8 text-base text-white group-hover:text-smooth">EDUCATION</a>
-                </li>
-                <li class="group">
-                  <a href="#skill" class="flex mx-8 text-base text-white group-hover:text-smooth">SKILL</a>
-                </li>
-                <li class="group">
-                  <a href="#certificate" class="flex mx-8 text-base text-white group-hover:text-smooth">CERTIFICATE</a>
-                </li>
-                <li class="group">
-                  <a href="#portfolio" class="flex mx-8 text-base text-white group-hover:text-smooth">PORTFOLIO</a>
-                </li>
-                <li class="group">
-                  <a href="#contact" class="flex mx-8 text-base text-white group-hover:text-smooth">CONTACT</a>
-                </li>
-              </ul>
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#home" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">HOME</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">ABOUT ME</a>
+              </li>
+              <li class="group">
+                <a href="#education" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">EDUCATION</a>
+              </li>
+              <li class="group">
+                <a href="#skill" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">SKILL</a>
+              </li>
+              <li class="group">
+                <a href="#certificate" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">CERTIFICATE</a>
+              </li>
+              <li class="group">
+                <a href="#portfolio" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">PORTFOLIO</a>
+              </li>
+              <li class="group">
+                <a href="#contact" class="flex py-2 mx-8 text-base text-white group-hover:text-smooth">CONTACT</a>
+              </li>
+            </ul>
             </nav>
           </div>
         </div>
@@ -54,7 +53,7 @@
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-    <section id="home">
+    <section id="home" class="pt-20">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="self-center w-full pl-20 lg:w-1/2">
@@ -62,8 +61,8 @@
             <a href="dist/cv.pdf" download="Purbaya_Ardiansyah_CV.pdf" class="px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out rounded-full bg-smooth hover:opacity-80 hover:shadow-lg">Download CV</a>
           </div>
           <div class="self-end w-full px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:right-0 lg:mt-9">
-              <img src="dist/img/profil.png" alt="Purbaya Ardiansyah" class="relative z-10 w-[500px] mx-auto" />
+            <div class="relative lg:right-0 lg:mt-5">
+              <img src="dist/img/profil.png" alt="Purbaya Ardiansyah" class="relative w-[500px] mx-auto" />
             </div>
           </div>
         </div>
@@ -128,8 +127,8 @@
           <!-- Stack 1 -->
           <div class="w-full h-full col-span-4 ">
               <div class="w-full h-full p-2 rounded-md bg-smooth md:pl-4">
-                  <h1 class="py-2 text-xl font-medium text-white">Universitas Logistik dan Bisnis Internasional</h1>
-                  <p class="text-xs text-gray-100 sm:text-sm">Jurusan Manajemen Informatika</p>
+                  <h1 class="py-2 text-lg font-medium text-white lg:text-xl">Universitas Logistik dan Bisnis Internasional</h1>
+                  <p class="text-sm text-gray-100 sm:text-sm">Jurusan Manajemen Informatika</p>
               </div>
           </div>
           <div class="relative flex items-center justify-center w-full h-full col-span-1">
@@ -149,8 +148,8 @@
           </div>
           <div class="w-full h-full col-span-4 ">
               <div class="w-full h-full p-2 rounded-md bg-smooth md:pl-4">
-                  <h1 class="py-2 text-xl font-medium text-white">SMK INFORMATIKA SUMEDANG</h1>
-                  <p class="text-xs text-gray-100 sm:text-sm">Jurusan Rekayasa Perangkat Lunak</p>
+                  <h1 class="py-2 text-lg font-medium text-white lg:text-xl">SMK INFORMATIKA SUMEDANG</h1>
+                  <p class="text-sm text-gray-100 sm:text-sm">Jurusan Rekayasa Perangkat Lunak</p>
               </div>
           </div>
       </div>
@@ -158,7 +157,7 @@
     </section>
     <!-- education Section End -->
 
-    <!-- SKILL Section Start -->
+    <!-- skill Section Start -->
     <section id="skill" class="pt-24 pb-32 bg-slate-100">
       <div class="container">
         <div class="w-full px-4">
@@ -166,17 +165,16 @@
             <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl">Skill</h2>
           </div>
         </div>
-        
-        <div class="flex items-center justify-center mb-8 circle-line">
-          <img src="dist/img/skills/html.svg" alt="HTML" class="w-16 h-16 p-1 mx-4 text-sm rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/css.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/js.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/php.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/laravel.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/tailwind.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/bootstrap.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/mysql.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
-          <img src="dist/img/skills/figma.svg" alt="Kitten" class="w-16 h-16 p-1 mx-4 rounded-full ring-4 ring-smooth hover:scale-125">
+        <div class="flex flex-wrap items-center justify-center mb-8 circle-line">
+          <img src="dist/img/skills/html.svg" alt="HTML" class="w-16 h-16 p-1 mx-4 mt-8 text-sm rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/css.svg" alt="css" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/js.svg" alt="js" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/php.svg" alt="php" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/laravel.svg" alt="laravel" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/tailwind.svg" alt="tailwind" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/bootstrap.svg" alt="bootstrap" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/mysql.svg" alt="mysql" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
+          <img src="dist/img/skills/figma.svg" alt="figma" class="w-16 h-16 p-1 mx-4 mt-8 rounded-full ring-4 ring-smooth hover:scale-125">
 
         </div>
       </div>
@@ -319,16 +317,16 @@
     <!-- Contact Section End -->
 
     <!-- Footer Start -->
-    <footer class="pt-24 pb-12 bg-dark">
+    <footer class="pt-10 pb-5 bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+          <div class="w-full px-4 mb-8 font-medium text-slate-300 md:w-1/3">
             <h2 class="mb-5 text-4xl font-bold text-white">PURBAYA</h2>
             <p>purbayaardiansyah63@gmail.com</p>
             <p>Jl. sariasih II, cijerokasi No. 14</p>
             <p>Bandung</p>
           </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
+          <div class="w-full px-4 mb-8 md:w-1/3">
             <h3 class="mb-5 text-xl font-semibold text-white">Connect with me</h3>
             <ul class="text-slate-300">
               <li>
@@ -342,7 +340,7 @@
               </li>
             </ul>
           </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
+          <div class="w-full px-4 mb-8 md:w-1/3">
             <h3 class="mb-5 text-xl font-semibold text-white">Tautan</h3>
             <ul class="text-slate-300">
               <li>
@@ -369,39 +367,36 @@
             </ul>
           </div>
         </div>
-
         <div class="w-full pt-10 border-t border-slate-700">
-          <div class="flex flex-wrap">
-            <p class="text-base font-bold text-center lg:w-1/2 text-slate-500">
-              2024 <span class="text-white">&copy; </span>Purbaya
-            </p>
-            <div class="flex items-center justify-center mb-5 lg:w-1/2">
-              <!-- Instagram -->
-              <a
-                href="https://github.com/Purbayard"
-                target="_blank"
-                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
-              >
-              <img src="dist/img/github.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
-              </a>
-              <!-- LinkedIn -->
-              <a
-                href="https://www.linkedin.com/in/purbaya-ardiansyah"
-                target="_blank"
-                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
-              >
-              <img src="dist/img/linkedin.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
-              </a>
-              <!-- Github -->
-              <a
-                href="https://www.instagram.com/purbayard_/"
-                target="_blank"
-                class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
-              >
-              <img src="dist/img/ig.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
-              </a>
-            </div>
+          <div class="flex items-center justify-center mb-5">
+            <!-- Instagram -->
+            <a
+              href="https://github.com/Purbayard"
+              target="_blank"
+              class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+            >
+            <img src="dist/img/github.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+            </a>
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/purbaya-ardiansyah"
+              target="_blank"
+              class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+            >
+            <img src="dist/img/linkedin.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+            </a>
+            <!-- Github -->
+            <a
+              href="https://www.instagram.com/purbayard_/"
+              target="_blank"
+              class="flex items-center justify-center mr-3 border rounded-full h-9 w-9"
+            >
+            <img src="dist/img/ig.svg" alt="" class="p-1 transition-all duration-300 rounded-full cursor-pointer filter grayscale hover:grayscale-0 ring-2">
+            </a>
           </div>
+          <p class="text-base font-bold text-center text-slate-500">
+            2024 <span class="text-white">&copy; </span>Purbaya
+          </p>
         </div>
       </div>
     </footer>
@@ -414,6 +409,8 @@
     <!-- Back to top End -->
 
     <script src="dist/js/script.js"></script>
+
+    <!-- send email -->
     <script>
       var form = document.getElementById("my-form");
       var toast = document.getElementById("toast");

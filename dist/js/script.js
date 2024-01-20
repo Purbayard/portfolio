@@ -31,5 +31,3 @@ window.addEventListener('click', function (e) {
     navMenu.classList.add('hidden');
   }
 });
-
-
