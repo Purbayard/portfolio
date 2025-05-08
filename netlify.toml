@@ -1,0 +1,21 @@
+# Netlify configuration
+# See https://docs.netlify.com/configure-builds/file-based-configuration/
+
+# Redirect rules for Single Page Applications
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Enable build processing for post-processing
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Handle form submissions
+[build.processing.html]
+  pretty_urls = true
+
+# Enable forms
+[build.environment]
+  NETLIFY_FORMS = "true"

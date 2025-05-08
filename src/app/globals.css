@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: var(--color-slate-300);
+  --foreground: var(--color-gray-800);
+  --primary: var(--color-slate-100);
+  --secondary: white;
+  --title: var(--color-blue-600);
+  --form: var(--color-slate-100);
+  --input: var(--color-slate-300);
+  --timeline: var(--color-white);
+  --footer: var(--color-blue-600);
+  --card: var(--color-blue-600);
+}
+
+.dark {
+  --background: var(--color-gray-900);
+  --primary: var(--color-gray-900);
+  --secondary: var(--color-gray-800);
+  --foreground: #ededed;
+  --title: var(--color-white);
+  --form: var(--color-gray-900);
+  --input: var(--color-gray-800);
+  --timeline: var(--color-gray-800);
+  --footer: var(--color-gray-900);
+  --label: var(--color-white);
+  --card: var(--color-gray-800);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.dark *,
+* {
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+span[style*="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0"] {
+  background-color: #f3f4f6;
+}
