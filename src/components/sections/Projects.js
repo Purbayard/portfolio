@@ -14,13 +14,13 @@ const Projects = () => {
             data-aos="fade-up"
             data-aos-delay={index * 150}
           >
-            <div className="relative h-60">
+            <div className="relative w-full aspect-[4/3]">
               <Image
                 src={project.image}
                 alt={project.title}
                 fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                style={{ objectFit: "fill" }}
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
             </div>
             <div className="p-6">

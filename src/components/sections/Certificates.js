@@ -62,13 +62,13 @@ const Certificates = () => {
                   data-aos="fade-up" 
                   data-aos-delay={100 + (certificate.id % 3) * 100}
                 >
-                  <div className="relative h-60">
+                  <div className="relative w-full aspect-[4/3]">
                     <Image
                       src={certificate.image}
                       alt={certificate.title}
                       fill
+                      style={{ objectFit: 'cover' }}
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      style={{ objectFit: "fill" }}
                     />
                   </div>
                   <div className="p-4 text-center">
